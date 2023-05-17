@@ -67,26 +67,33 @@
 
 .memory-game__bottom :nth-child(1n + 1) {
   background-color: #ec407a;
-  -webkit-animation: shakeAnimation 0.4s linear infinite both;
-  animation: shakeAnimation 0.4s linear infinite both;
 }
-.memory-game__bottom :nth-child(2n + 2) {
+.memory-game__bottom :nth-child(2n + 3) {
   background-color: #ff8f00;
-  -webkit-animation: heartbeat 0.8s ease-in-out infinite both;
-  animation: heartbeat 0.8s ease-in-out infinite both;
 }
-.memory-game__bottom :nth-child(4n + 3) {
+.memory-game__bottom :nth-child(3n + 4) {
   background-color: #a5d6a7;
-  -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
-  animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 .memory-game__bottom :nth-child(5n + 4) {
   background-color: #5e35b1;
+}
+.memory-game__bottom :nth-child(1n + 2) {
+  -webkit-animation: shakeAnimation 0.4s linear infinite both;
+  animation: shakeAnimation 0.4s linear infinite both;
+}
+.memory-game__bottom :nth-child(2n + 1) {
+  -webkit-animation: heartbeat 0.8s ease-in-out infinite both;
+  animation: heartbeat 0.8s ease-in-out infinite both;
+}
+.memory-game__bottom :nth-child(4n + 1) {
+  -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+  animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
+.memory-game__bottom :nth-child(5n + 1) {
   -webkit-animation: shake-bottom 1s 1s infinite both;
   animation: shake-bottom 1s 1s infinite both;
 }
 .number-btn {
-  min-width: 200px;
   border: none;
   height: 100px;
   font-size: 31px;

@@ -15,22 +15,22 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       buttonAmount: 9,
-      buttonWidth: "150px",
-      buttonHeight: "75px",
+      buttonWidth: "200px",
+      buttonHeight: "100px",
     },
     {
       buttonAmount: 12,
-      buttonWidth: "100px",
+      buttonWidth: "150px",
       buttonHeight: "70px",
     },
     {
       buttonAmount: 16,
-      buttonWidth: "75px",
+      buttonWidth: "140px",
       buttonHeight: "60px",
     },
     {
       buttonAmount: 16,
-      buttonWidth: "75px",
+      buttonWidth: "140px",
       buttonHeight: "60px",
     },
   ];
